@@ -1,0 +1,87 @@
+@font-face {
+    font-family: font1;
+    src: url(LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    gap: 80px;
+}
+
+.first{
+    display: flex;
+    margin: auto;
+    height: 500px;
+    width: 1000px;
+    font-family: font1;
+    margin-top: 20px;
+    color: white;
+}
+
+.sedans{
+    flex-basis: 33.3%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.suvs{
+    flex-basis: 33.3%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.luxuries{
+    flex-basis: 33.3%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+b{
+    font-size: 30px;
+    font-family: font2;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.one{
+    color: hsl(31, 77%, 52%);
+}
+
+.two{
+    color: hsl(184, 100%, 22%);
+}
+
+.three{
+    color: hsl(179, 100%, 13%);
+}
+
+input:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
